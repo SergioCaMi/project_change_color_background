@@ -4,13 +4,13 @@ const colors = ['red', 'green', 'blue', 'yellow', 'pink', 'purple']
 const miBoton = document.querySelector(".btn");
 let contador = 0;
 
-// Opción 1
+// Opción 2
 
 // miBoton.addEventListener("click", event =>{
 //     document.querySelector("body").style.backgroundColor = colors[Math.floor(Math.random() * 6)];
 // });
 
-// Opción 2
+// Opción 1
 miBoton.addEventListener("click", event =>{
     document.querySelector("body").style.backgroundColor = colors[contador];
     if (contador<5){
